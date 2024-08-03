@@ -1,0 +1,56 @@
+:root{
+  --cor1: #dad7c2;
+  --cor2:#B6A41E;
+  --cor3:#8B812E;
+  --cor4: #615B30
+  --cor5: #363424;
+  --cor6: #33322B;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: var(--cor1);
+}
+
+header{
+  background-color: var(--cor2);
+  text-align: center;
+  padding: 10px;
+}
+
+header h1{
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+header p{
+  font-size: medium;
+}
+
+nav{
+  background-color: var(--cor4);
+  padding: 5px;
+}
+
+nav a{
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+main{
+  margin: auto;
+  max-width: 1020px;
+  min-width: 380px;
+  padding: 10px;
+  background-color: var(--cor3);
+}
+
+main h1{
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
