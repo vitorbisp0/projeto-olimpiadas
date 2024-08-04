@@ -31,6 +31,7 @@ header{
   padding: 10px;
   color: var(--cor1);
   font-weight: bold;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.562);
 }
 
 header h1{
@@ -72,11 +73,14 @@ nav a:hover{
 }
 
 main{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.562);
   margin: auto;
+  height: 100%;
   max-width: 1020px;
   min-width: 380px;
-  padding: 10px;
+  padding: 10px 10px 50px 10px;
   background-color: white;
+  border-radius: 0px 0px 50px 50px;
 }
 
 main h1{
@@ -112,9 +116,23 @@ article img{
 
 #video{
   background-color: var(--cor2);
+  padding: 20px;
+  position: relative;
+}
+
+#video > iframe{
+  display: block;
+  max-width: 100%;
+  min-width: 10%;
+  margin: auto;
+}
+
+#video > p{
+  text-align: center;
 }
 
 #lista-inverno{
+  margin-top: -25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
 }
@@ -123,6 +141,31 @@ article img{
   padding: 5px;
   list-style-position: inside;
   list-style-type: square;
+}
+
+aside{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cor5);
+  border-radius: 25px;
+  margin: 0px 20px 0px 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.562);
+}
+
+aside h3{
+  color: var(--cor1);
+  border-radius: 25px 25px 0px 0px;
+  background-color: #686120;
+  padding: 10px;
+}
+
+aside ul{
+  columns: 2;
+}
+
+aside ul > li{
+  color: var(--cor1);
+  list-style: inside;
+  padding: 10px;
 }
 
 footer{
